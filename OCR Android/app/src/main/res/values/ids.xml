@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="f1" />
+    <item type="id" name="f2" />
+    <item type="id" name="f3" />
+    <item type="id" name="f4" />
+    <item type="id" name="f5" />
+    <item type="id" name="f6" />
+    <item type="id" name="f7" />
+    <item type="id" name="f8" />
+    <item type="id" name="f9" />
+    <item type="id" name="f10" />
+    <item type="id" name="e1" />
+    <item type="id" name="e2" />
+    <item type="id" name="e3" />
+    <item type="id" name="e4" />
+    <item type="id" name="e5" />
+    <item type="id" name="e6" />
+    <item type="id" name="e7" />
+    <item type="id" name="e8" />
+    <item type="id" name="e9" />
+    <item type="id" name="e10" />
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Deep Blue OCR</string>
+    <string name="error_message">No Data Found Check your N/W</string>
+    <string name="video_button">Video Record Button</string>
+    <string name="camera_button">Camera Capture Button</string>
+    <string name="ipadd">192.168.1.105</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

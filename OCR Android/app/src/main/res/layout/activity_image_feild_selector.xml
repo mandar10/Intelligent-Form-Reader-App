@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- Here you put the rest of your current view-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context="com.example.android.ocrmain.ImageFeildSelector">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fieldselecthead"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:maxHeight="500dp"
+        android:minHeight="142dp"
+        android:background="@drawable/imageviewstyle"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        ></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/coord"
+        android:layout_margin="10dp"
+        >
+
+        <EditText
+            android:id="@+id/column_name_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:hint="Field Name"
+            android:textSize="18dp"
+            android:inputType="textPersonName|textCapWords"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/x_cod_edit"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="4"
+            android:hint="X"
+            android:textSize="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        <EditText
+            android:id="@+id/y_cod_edit"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription=""
+            android:textSize="18dp"
+            android:hint="Y"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/add_to_waitlist_button"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#A90116"
+        android:onClick="addToWaitlist"
+        android:text="Add"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_margin="10dp"
+        android:theme="?attr/actionBarTheme" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/all_guests_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="300dp"
+        android:layout_margin="10dp"
+        >
+
+        </android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/insertbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#eb197019"
+        android:text="Create Form"
+        android:onClick="insertSQL"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+</LinearLayout>
+</ScrollView>
