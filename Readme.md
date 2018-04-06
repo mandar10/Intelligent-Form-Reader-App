@@ -1,6 +1,6 @@
 # Intelligent Form Reader App Project Deep Blue
 
-Most of the NGO’s run programs where the counsellor / filed workers have to visit remote rural areas or urban slum areas having very poor infrastructure and collect the required data based on their observation. They usually fill standard <strong>paper</strong> Later they manually enter data into the system. It’s a cumbersome process, especially if that data entered is handwritten by some other person.
+Most of the NGOâ€™s run programs where the counsellor / filed workers have to visit remote rural areas or urban slum areas having very poor infrastructure and collect the required data based on their observation. They usually fill standard <strong>paper</strong> Later they manually enter data into the system. Itâ€™s a cumbersome process, especially if that data entered is handwritten by some other person.
 
 The NGOs need a solution which would help take <strong>scanned images</strong> of the forms as <strong>input</strong> and capture the associated fields which are entered as handwritten (English block capital) text and numbers into <strong>electronic form</strong> to store the same.
 
@@ -69,7 +69,7 @@ The System Supports sqaure shaped form fields to support more types of field mod
 ## Authors
 
 * **Prathamesh Mhapsekar** - [prathmesh36](https://github.com/prathmesh36)
-* **Mandar Mhapsekar** - [mandar100](https://github.com/mandar100)
+* **Mandar Mhapsekar** - [mandar10](https://github.com/mandar10)
 * **Raj Patel** 
 * **Aniket Mhatre**
 
